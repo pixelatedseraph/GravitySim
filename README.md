@@ -1,2 +1,2 @@
 # GravitySim
-this project simulates gravity with rk4 integrator implemented in java.
+this project simulates gravity with Runge-Kutta integrator implemented in java.
