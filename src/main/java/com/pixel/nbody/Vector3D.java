@@ -1,6 +1,6 @@
 package com.pixel.nbody;
-/* math util library */
 import java.util.Objects;
+/* math util library */
 public class Vector3D {
     public double x;
     public double y;
@@ -145,7 +145,10 @@ public class Vector3D {
     public Vector3D imutSub(Vector3D Other){
         return new Vector3D(this.x - Other.x , this.y - Other.y , this.z - Other.z);
     }
-
+    /* multiply by scalar k */
+    public Vector3D imutScale(double k){
+       return new Vector3D(x*k, y*k,z*k);
+    }
     /* time for some static helper methods */
 
     /* static method for adding two vectors */

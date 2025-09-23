@@ -27,4 +27,11 @@ public class Simulation {
         }
         return netForce;
     }
+    public List<Body> getBodies() {
+        return bodies;
+    }
+    public double getTimeStep() {
+        return timeStep;
+    }
+
 }
