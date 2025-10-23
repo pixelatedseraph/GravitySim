@@ -1,1 +1,1 @@
-N body sim in java
+N body sim in java..
